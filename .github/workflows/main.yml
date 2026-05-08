@@ -16,5 +16,5 @@ uses: actions/checkout@v4
 uses: actions/setup-python@v5
 with:
 python-version: '3.12'
-- name: Run Python File
+name: Run Python File
 run: python app.py
